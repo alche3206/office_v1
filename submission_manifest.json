@@ -1,0 +1,22 @@
+{
+  "manifest_version": "submission_manifest.v1",
+  "repo_layout_rules": {
+    "manifest_path": "submission_manifest.json",
+    "readme_path": "README.md",
+    "artifacts_dir": "artifacts",
+    "artifact_extension": ".zip"
+  },
+  "artifacts": [
+    {
+      "family_id": "cf_office_interceptor",
+      "interface_version": "submission_zip.v1",
+      "artifact_path": "artifacts/cf_office_interceptor/submission.zip",
+      "sha256": "1bf5e395dd11f136916b6d51ef59bb587a18531d5644e5295f0a7fecf4ff2221",
+      "size_bytes": 5803,
+      "metadata": {
+        "packaged_with": "swarm_cli",
+        "source_dir_name": "off_src"
+      }
+    }
+  ]
+}
